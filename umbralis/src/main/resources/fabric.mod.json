@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "umbralis",
+  "version": "${version}",
+  "name": "Umbralis: Más Allá del End",
+  "description": "Una dimensión posterior al Dragón del End: el Umbral. Seis biomas de purpur y obsidiana, mobs hostiles y amigables, y tres jefes finales con mecánicas únicas.",
+  "authors": ["Umbralis"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.umbralis.Umbralis"],
+    "client": ["com.umbralis.client.UmbralisClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "type": "umbralis:umbral",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "umbralis:umbral",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "umbralis:purpur_spires",
+          "parameters": {
+            "temperature": [
+              -2,
+              -0.15
+            ],
+            "humidity": [
+              -2,
+              0
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "umbralis:crystal_forest",
+          "parameters": {
+            "temperature": [
+              -2,
+              -0.15
+            ],
+            "humidity": [
+              0,
+              2
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "umbralis:obsidian_wastes",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              -2,
+              0
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "umbralis:ethereal_gardens",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0,
+              2
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "umbralis:crying_canyons",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.45
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "umbralis:heart_of_umbral",
+          "parameters": {
+            "temperature": [
+              0.45,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

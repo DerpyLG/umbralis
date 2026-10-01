@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "umbralis:umbral_stone",
+    "umbralis:void_crystal",
+    "umbralis:ether_moss"
+  ]
+}

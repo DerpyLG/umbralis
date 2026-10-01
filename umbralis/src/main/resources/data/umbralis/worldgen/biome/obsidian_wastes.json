@@ -1,0 +1,67 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "creature_spawn_probability": 0.0,
+  "effects": {
+    "sky_color": 1050652,
+    "fog_color": 1707052,
+    "water_color": 6308000,
+    "water_fog_color": 1707052,
+    "particle": {
+      "options": {
+        "type": "minecraft:portal"
+      },
+      "probability": 0.004
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "umbralis:umbral_stalker",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "umbralis:umbral_wraith",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "umbralis:purpur_crawler",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "umbralis:obsidian_rock",
+      "umbralis:spire_sparse",
+      "umbralis:crying_rock"
+    ],
+    []
+  ]
+}

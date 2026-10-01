@@ -1,0 +1,67 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.9,
+  "downfall": 0.0,
+  "creature_spawn_probability": 0.0,
+  "effects": {
+    "sky_color": 525328,
+    "fog_color": 1312800,
+    "water_color": 10510591,
+    "water_fog_color": 1312800,
+    "particle": {
+      "options": {
+        "type": "minecraft:reverse_portal"
+      },
+      "probability": 0.004
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "umbralis:umbral_stalker",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "umbralis:umbral_wraith",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "umbralis:purpur_crawler",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "umbralis:boss_arena",
+      "umbralis:spire_sparse",
+      "umbralis:crying_rock"
+    ],
+    []
+  ]
+}

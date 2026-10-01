@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "umbralis:block/umbral_portal_x"
+    },
+    "axis=z": {
+      "model": "umbralis:block/umbral_portal_z"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SOS",
+    "ONO",
+    "SOS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "umbralis:umbral_key"
+  }
+}

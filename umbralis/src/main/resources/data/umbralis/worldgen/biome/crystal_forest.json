@@ -1,0 +1,74 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.4,
+  "downfall": 0.0,
+  "creature_spawn_probability": 0.2,
+  "effects": {
+    "sky_color": 1714776,
+    "fog_color": 2767480,
+    "water_color": 6332640,
+    "water_fog_color": 2767480,
+    "particle": {
+      "options": {
+        "type": "minecraft:glow"
+      },
+      "probability": 0.004
+    },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "umbralis:umbral_wraith",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "umbralis:purpur_crawler",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "umbralis:crystal_pig",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "umbralis:umbral_bison",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "umbralis:crystal_tree_dense",
+      "umbralis:ether_flower_patch",
+      "umbralis:spire_sparse"
+    ],
+    []
+  ]
+}
